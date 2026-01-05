@@ -21,7 +21,7 @@ import joblib
 # -------------------------------------------------
 MODEL_DIR = Path("models")
 MODEL_457 = MODEL_DIR / "mlp_pipeline_457nm_aberr.joblib"
-MODEL_MULTI = MODEL_DIR / "mlp_pipeline_multiline_aberr.joblib"
+MODEL_MULTI = MODEL_DIR / "unified_mlp_pipeline.joblib"
 
 model_457 = joblib.load(MODEL_457)
 model_multi = joblib.load(MODEL_MULTI)
