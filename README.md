@@ -13,12 +13,17 @@ This repository provides machine-learning–based abundance corrections
 
 ## Usage
 ```bash
-python3 main_mg_aberr.py input.csv output.csv
+python3 main_mg_aberr.py input_file output_file
 ```
 
 ## Input Format
-Teff,logg,A(Mg),vmic,lambda
+The input file may be provided in CSV or XLSX format and must contain the columns:
+
+Teff,logg,A(Mg),vmic,line
+
 5050,4.0,7.2,1.0,457.1
+
+5750,4.5,7.0,1.2,516.7
 
 ## Output
 The output file contains an additional column:
