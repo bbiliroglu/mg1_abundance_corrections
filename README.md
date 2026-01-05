@@ -14,13 +14,14 @@ This repository provides machine-learning–based abundance corrections
 ## Usage
 ```bash
 python3 main_mg_aberr.py input.csv output.csv
+```
 
 ## Input Format
-
 Teff,logg,A(Mg),vmic,lambda
 5050,4.0,7.2,1.0,457.1
 
 ## Output
 The output file contains an additional column:
 aberr : abundance correction (dex)
+
 The code automatically selects a dedicated 457.1 nm model or a unified multiline model.
