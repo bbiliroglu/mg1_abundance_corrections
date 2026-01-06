@@ -21,10 +21,10 @@ import joblib
 # Paths
 # --------------------------------------------------
 
-MODELS_DIR = "models"
-MODEL_457 = os.path.join(MODELS_DIR, "mlp_pipeline_457nm_aberr.joblib")
-MODEL_UNIFIED = os.path.join(MODELS_DIR, "unified_mlp_pipeline.joblib")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+MODEL_457 = os.path.join(BASE_DIR, "mlp_pipeline_457nm_aberr.joblib")
+MODEL_UNIFIED = os.path.join(BASE_DIR, "unified_mlp_pipeline.joblib")
 
 # --------------------------------------------------
 # Line physics (INTERNAL — DO NOT REQUIRE USER INPUT)
