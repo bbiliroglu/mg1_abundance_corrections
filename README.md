@@ -11,6 +11,12 @@ This repository provides machine-learning–based abundance corrections
 - 516.7
 - 571.1
 
+## Requirements 
+numpy\
+pandas\
+scikit-learn\
+joblib
+
 ## Usage
 ```bash
 python3 main_mg_aberr.py input_file output_file
