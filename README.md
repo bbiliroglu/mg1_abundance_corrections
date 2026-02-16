@@ -36,3 +36,8 @@ The output file contains an additional column:
 aberr : abundance correction (dex)
 
 The code automatically selects a dedicated 457.1 nm model or a unified multiline model.
+
+## Contact
+This work is part of the project “Machine Learning Interpolation of Stellar Abundance Corrections”, carried out under the supervision of Anish Amarsi at Uppsala University.
+
+For questions or issues, please contact: biliroglubengu@gmail.com
