@@ -79,6 +79,12 @@ def main():
         return
 
     df.columns = df.columns.str.strip()
+    required = ["Teff", "logg", "A(Mg)", "vmic", "line"]
+    missing = [col for col in required if col not in df.columns]
+    if missing: 
+        print(f"Error: Missing required columns: {missing}")
+        sys.exit(1)
+    
     results = []
     print(f"Processing {len(df)} rows from {input_path.name}...")
 
