@@ -32,8 +32,8 @@ Teff,logg,A(Mg),vmic,line
 5750,4.5,7.0,1.2,516.7
 
 ## Output
-The output file contains an additional column:
-aberr : abundance correction (dex)
+The output file contains an additional column:\
+abundance_error (1L-3N)
 
 The code automatically selects a dedicated 457.1 nm model or a unified multiline model.
 
